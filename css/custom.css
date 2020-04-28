@@ -12,10 +12,17 @@
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.handwritten { font-family: 'Amatic SC', cursive; }
+.handwritten { font-family: 'Amatic SC', cursive;}
 .maintitle { font-size: 12rem;
     font-weight: 700;
     text-transform: uppercase; }
+	
+/* prevent flash of unstyled text */	
+.row {filter: opacity(0); }	
+.showMe {
+  filter: opacity(1) !important;
+  transition: filter 878ms ease-in;
+}
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
