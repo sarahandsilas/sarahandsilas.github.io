@@ -13,7 +13,7 @@
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .handwritten { font-family: 'Amatic SC', cursive;}
-.maintitle { font-size: 12rem;
+.maintitle { 
     font-weight: 700;
     text-transform: uppercase; }
 	
@@ -56,42 +56,9 @@
   display: none;
 }
 
-/* Values
+/* About
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-image: url('../images/lily-home-banner.jpg');
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #11DFC7;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  opacity: .8;
-  font-weight: 300;
-}
-
-/* Help
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
-  border-bottom: 1px solid #ddd;
-}
-
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
-}
+.about .section-description {text-align: justify; }
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
@@ -101,7 +68,7 @@
   .hero {
     padding-bottom: 12rem;
     /* text-align: left; */
-    height: 165px;
+    height: 305px;
   }
   .phone {
     position: absolute;
@@ -124,7 +91,7 @@
 }
 
 /* Bigger than 750 */
-@media (min-width: 750px) {
+@media (min-width: 626px) {
   .hero {
     height: 190px;
   }
