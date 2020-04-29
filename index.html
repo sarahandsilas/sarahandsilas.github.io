@@ -13,34 +13,19 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-<!-- Preload critical CSS -->
-<style type="text/css">
-.container{position:relative;width:100%;max-width:960px;margin:0 auto;padding:0 20px;box-sizing:border-box}@media (min-width:400px){.container{width:85%;padding:0}}@media (min-width:550px){.container{width:80%}}html{font-size:62.5%}body{font-size:1.5em;line-height:1.6;font-weight:400;font-family:"Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;color:#222}h1,h3{margin-top:0;margin-bottom:2rem;font-weight:300;letter-spacing:0.1rem}h1{font-size:6rem;line-height:1.2}h3{font-size:3.5rem;line-height:1.3}@media (min-width:550px){h1{font-size:12rem;line-height:1.2}h3{font-size:7rem;line-height:1.3}}p{margin-top:0}a{color:#1EAEDB}.button{display:inline-block;height:40px;padding:0 30px;color:#555;text-align:center;font-size:15px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:4px;border:1px solid #bbb;box-sizing:border-box}.button.button-primary{color:#FFF;background-color:#3353f0;border-color:#3353f0}.button.button-secondary{color:#FFF;background-color:#C333F0;border-color:#C333F0}.button{margin-bottom:1rem}p{margin-bottom:2.5rem}.container:after,.row:after{content:"";display:table;clear:both}.button{border-radius:100px}.handwritten{font-family:'Amatic SC',cursive}.maintitle{font-weight:700;text-transform:uppercase}.row{filter:opacity(0)}.section{padding:4rem 0 3rem;text-align:center}.section-heading,.section-description{margin-bottom:1.2rem}.hero{background-image:url('./images/sarah_and_silas_instruments.jpg');background-size:cover;color:#fff;padding-bottom:5rem}.about .section-description{text-align:justify}@media (min-width:550px){.hero{padding-bottom:12rem;height:305px}}@media (min-width:626px){.hero{height:190px}.hero{padding:16rem 0 14rem}.section-description{max-width:60%;margin-left:auto;margin-right:auto}}@media (min-width:1000px){.hero{padding:22rem 0}}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}h1{font-size:2em;margin:0.67em 0}
-</style>
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<link rel="preload" href="css/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="css/skeleton.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="css/custom.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 
-<noscript>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-</noscript>
-
 
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -56,8 +41,8 @@
     <div class="container">
 	  <div class="row">
 		  <h1 class="handwritten maintitle">Sarah &amp; Silas</h1>
-		  <a class="button button-primary" href="https://mailchi.mp/baaa15a34476/sarahandsilas">Join our Mailing List</a>
-		  <a class="button button-secondary" href="https://sarahsilas.bandcamp.com/releases">Listen to our Music</a>
+		  <a rel="noopener" class="button button-primary" href="https://mailchi.mp/baaa15a34476/sarahandsilas">Join our Mailing List</a>
+		  <a rel="noopener" class="button button-secondary" href="https://sarahsilas.bandcamp.com/releases">Listen to our Music</a>
 	  </div>
     </div>
   </div>
@@ -76,7 +61,7 @@
   <div class="section video">
     <div class="container">
       <div class="row"> 
-		  <div class='embed-container'><iframe src='' data-src='https://www.youtube.com/embed/BprIRyxbTtw' frameborder='0' allowfullscreen></iframe></div>
+		  <div class='embed-container'><iframe title='Sarah and Silas - violin and piano highlights. - YouTube' src='' data-src='https://www.youtube.com/embed/BprIRyxbTtw' frameborder='0' allowfullscreen></iframe></div>
 	  </div>
     </div>
   </div>
@@ -87,14 +72,14 @@
       <div class="row">
 		  <h3 class="section-heading handwritten">Be Social.</h3>
 		  <p class="section-description">Find Sarah &amp; Silas on 
-		  <a href="https://fb.me/sarahandsilas" target="_blank">Facebook</a> and 
-		  <a href="https://youtu.be/BprIRyxbTtw" target="_blank">Youtube</a>. </p>
+		  <a rel="noopener" href="https://fb.me/sarahandsilas" target="_blank">Facebook</a> and 
+		  <a rel="noopener" href="https://youtu.be/BprIRyxbTtw" target="_blank">Youtube</a>. </p>
 		  <p>
 		  You can also 
 			  <ul>
-			  <li> <a href="https://mailchi.mp/baaa15a34476/sarahandsilas" target="_blank">Join our Mailing List</a> </li>
-			  <li> <a href="https://sarahsilas.bandcamp.com/releases" target="_blank">Listen to our Music</a> </li>
-			  <li> <a href="https://m.me/sarahandsilas" target="_blank">Send Us a Message</a> </li>
+			  <li> <a rel="noopener" href="https://mailchi.mp/baaa15a34476/sarahandsilas" target="_blank">Join our Mailing List</a> </li>
+			  <li> <a rel="noopener" href="https://sarahsilas.bandcamp.com/releases" target="_blank">Listen to our Music</a> </li>
+			  <li> <a rel="noopener" href="https://m.me/sarahandsilas" target="_blank">Send Us a Message</a> </li>
 			  </ul>
 		  or email hello@sarahandsilas.com
 		  </p>
@@ -106,9 +91,29 @@
 <!-- Prevent flash of unstyled text -->
 <script type="text/javascript">
 
+
 setTimeout(function() {
-	$(".row").addClass('showMe');
+	addClass('.handwritten','showMe');	
+	// $(".row").addClass('showMe');
 }, 288);
+
+
+function addClass(selector, classToAdd) {
+	var rows = document.querySelectorAll(selector);
+	for (var i=0; i<rows.length; i++) { 	
+		if (rows[i].classList) {
+		  rows[i].classList.add(classToAdd);
+		} else {
+		  var current = rows[i].classToAdd, found = false;
+		  var all = current.split(' ');
+		  for(i=0; i<all.length, !found; i++) found = all[i] === classToAdd;
+		  if(!found) {
+			if(current === '') rows[i].classToAdd = classToAdd;
+			else rows[i].classToAdd += ' ' + classToAdd;
+		  }
+		}
+	}
+}
 
 
 function init() {

@@ -4,6 +4,10 @@
   border-radius: 100px;
 }
 
+body {
+
+}
+
 /* Responsive video
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -12,17 +16,19 @@
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.handwritten { font-family: 'Amatic SC', cursive;}
+.handwritten { font-family: 'Amatic SC', 'Arial Narrow'; filter: opacity(0.1);}
 .maintitle { 
     font-weight: 700;
     text-transform: uppercase; }
 	
-/* prevent flash of unstyled text */	
-.row {filter: opacity(0); }	
+/* prevent flash of unstyled text */
+	
+/* .handwritten {filter: opacity(0.1); }	*/
 .showMe {
   filter: opacity(1) !important;
   transition: filter 878ms ease-in;
 }
+
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
