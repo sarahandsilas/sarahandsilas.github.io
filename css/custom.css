@@ -5,7 +5,9 @@
 }
 
 body {
-
+	/* Dark theme */
+	color: #fff;
+	background-color: #121212;
 }
 
 /* Responsive video
