@@ -16,16 +16,10 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -50,10 +44,10 @@
   <div class="section about">
     <div class="container">
       <div class="row">
-		  <h3 class="section-heading handwritten">Who are Sarah &amp; Silas?</h3>
-		  <p class="section-description">Festival sweethearts Sarah &amp; Silas play folk roots music.</p>
-		  <p class="section-description">Their love, skill and connection shine through exciting dualling fiddles and sweet vocal harmonies which dance to the strum of a ukulele and the beat of a drum. Their catchy original songs and tunes will move your feet and warm your heart.</p>
-		  <p class="section-description">As seen in The Royal High Jinx and The Bushwackers, don't miss them at a festival near you!</p>		  
+	  <h3 class="section-heading handwritten">Who are Sarah &amp; Silas?</h3>
+	  <p class="section-description">Festival sweethearts Sarah &amp; Silas play folk roots music.</p>
+	  <p class="section-description">Their love, skill and connection shine through exciting dueling fiddles and sweet vocal harmonies which dance to the strum of a ukulele and the beat of a drum. Their catchy original songs and tunes will move your feet and warm your heart.</p>
+	  <p class="section-description">As seen in The Royal High Jinx and The Bushwackers, don't miss them at a festival near you!</p>		  
       </div>
     </div>
   </div>
@@ -61,8 +55,19 @@
   <div class="section video">
     <div class="container">
       <div class="row"> 
-		  <div class='embed-container'><iframe title='Sarah and Silas - violin and piano highlights. - YouTube' src='' data-src='https://www.youtube.com/embed/tTh4NfxCBSI?cc_load_policy=1' frameborder='0' allowfullscreen></iframe></div>
-	  </div>
+          <div class='embed-container'>
+		  
+		  <!-- https://www.youtube.com/embed/tTh4NfxCBSI?cc_load_policy=1 -->
+		  
+		  
+	  	<iframe title='Sarah and Silas - violin and piano video highlights. - YouTube' 
+			src='' 
+			data-src='https://www.youtube.com/embed/videoseries?list=PLERPq41aU9makWuLO3hYuarjUMO1cE4gl' 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+	  	</iframe>
+      	   </div>
+      </div>
     </div>
   </div>
  
@@ -70,31 +75,27 @@
   <div class="section social">
     <div class="container">
       <div class="row">
-		  <h3 class="section-heading handwritten">Be Social.</h3>
-		  <p class="section-description">Find Sarah &amp; Silas on 
-		  <a rel="noopener" href="https://fb.me/sarahandsilas" target="_blank">Facebook</a> and 
-		  <a rel="noopener" href="https://youtu.be/BprIRyxbTtw" target="_blank">Youtube</a>. </p>
-		  <p>
-		  You can also 
-			  <ul>
-			  <li> <a rel="noopener" href="https://mailchi.mp/baaa15a34476/sarahandsilas" target="_blank">Join our Mailing List</a> </li>
-			  <li> <a rel="noopener" href="https://sarahsilas.bandcamp.com/releases" target="_blank">Listen to our Music</a> </li>
-			  <li> <a rel="noopener" href="https://m.me/sarahandsilas" target="_blank">Send Us a Message</a> </li>
-			  </ul>
-		  or email hello@sarahandsilas.com
-		  </p>
+	  <h3 class="section-heading handwritten">Be Social.</h3>
+	  <p class="section-description">Find Sarah &amp; Silas on 
+	  <a rel="noopener" href="https://fb.me/sarahandsilas" target="_blank">Facebook</a> and 
+	  <a rel="noopener" href="https://youtu.be/BprIRyxbTtw" target="_blank">Youtube</a>. </p>
+	  <p>
+	  You can also 
+	      <ul>
+	        <li> <a rel="noopener" href="https://mailchi.mp/baaa15a34476/sarahandsilas" target="_blank">Join our Mailing List</a> </li>
+	        <li> <a rel="noopener" href="https://sarahsilas.bandcamp.com/releases" target="_blank">Listen to our Music</a> </li>
+	        <li> <a rel="noopener" href="https://m.me/sarahandsilas" target="_blank">Send Us a Message</a> </li>
+	      </ul>
+	  or email hello@sarahandsilas.com
+	  </p>
       </div>
     </div>
   </div>
 
-
 <!-- Prevent flash of unstyled text -->
 <script type="text/javascript">
-
-
 setTimeout(function() {
-	addClass('.handwritten','showMe');	
-	// $(".row").addClass('showMe');
+	addClass('.handwritten','showMe');
 }, 288);
 
 
@@ -115,9 +116,7 @@ function addClass(selector, classToAdd) {
 	}
 }
 
-
 function init() {
-
   var vidDefer = document.getElementsByTagName('iframe');
   for (var i=0; i<vidDefer.length; i++) {
     if(vidDefer[i].getAttribute('data-src')) {
