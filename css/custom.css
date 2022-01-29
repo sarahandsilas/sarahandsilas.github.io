@@ -39,23 +39,14 @@ body {
     height: 289px;
     padding: 10px;	
 }
-.music-link__container {
+.music-link__container a {
     display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
 }
-
-.music-link__container a {
-    display: block;
-    width: 40%;
-}
-
 .music-link__logo {
     max-width: 160px;
-    width: 100%;
+    width: 40%;
 }
 .music-link__button {
     width: 35%;
