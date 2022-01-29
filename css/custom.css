@@ -47,9 +47,15 @@ body {
     flex-wrap: wrap;
     width: 100%;
 }
+
+.music-link__container a {
+    display: block;
+    width: 40%;
+}
+
 .music-link__logo {
     max-width: 160px;
-    width: 40%;
+    width: 100%;
 }
 .music-link__button {
     width: 35%;
