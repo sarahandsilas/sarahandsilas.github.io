@@ -173,6 +173,27 @@ input[type="button"].button-secondary:focus {
   background-color: #AE1EDB;
   border-color: #AE1EDB; }
 
+.button.button-3,
+button.button-3,
+input[type="submit"].button-3,
+input[type="reset"].button-3,
+input[type="button"].button-3 {
+  color: #FFF;
+  background-color: #3B2;
+  border-color: #3B2; }
+.button.button-3:hover,
+button.button-3:hover,
+input[type="submit"].button-3:hover,
+input[type="reset"].button-3:hover,
+input[type="button"].button-3:hover,
+.button.button-3:focus,
+button.button-3:focus,
+input[type="submit"].button-3:focus,
+input[type="reset"].button-3:focus,
+input[type="button"].button-3:focus {
+  color: #FFF;
+  background-color: #1D3;
+  border-color: #1D3; }
 
 
 /* Lists
