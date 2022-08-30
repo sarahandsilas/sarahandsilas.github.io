@@ -118,8 +118,8 @@ body {
   }
 }
 
-/* Bigger than 750 */
-@media (min-width: 626px) {
+/* Bigger than 709 */
+@media (min-width: 709px) {
   .hero {
     height: 190px;
   }
