@@ -68,7 +68,8 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* .handwritten { font-family: 'Amatic SC', 'Arial Narrow'; filter: opacity(0.1);} */
-.handwritten { font-family: Courgette, 'Arial Narrow', sans-serif; filter: opacity(0.1);}
+.handwritten { font-family: Courgette, 'Arial Narrow', sans-serif; }
+/* filter: opacity(0.1);} */
 
 .maintitle { 
     margin-top: 150px;
