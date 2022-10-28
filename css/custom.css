@@ -67,10 +67,15 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.handwritten { font-family: 'Amatic SC', 'Arial Narrow'; filter: opacity(0.1);}
+/* .handwritten { font-family: 'Amatic SC', 'Arial Narrow'; filter: opacity(0.1);} */
+.handwritten { font-family: Courgette, 'Arial Narrow', sans-serif; filter: opacity(0.1);}
+
 .maintitle { 
+    margin-top: 150px;
     font-weight: 700;
-    text-transform: uppercase; }
+    font-size: 10vw;
+    background: rgb(0 0 0 / 33%);
+  }
 	
 /* prevent flash of unstyled text */
 	
@@ -95,10 +100,11 @@ body {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url('../images/sarah_and_silas_instruments.jpg');
+  background-image: url('../images/sarah-silas-h42b.jpg');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
+  background-position-x: 50%;
 }
 
 
