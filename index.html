@@ -38,7 +38,7 @@
 		  <a rel="noopener" target="_blank" class="button button-primary" href="https://mailchi.mp/baaa15a34476/sarahandsilas">Get Fun Emails!</a>
 		  <a rel="noopener" target="_blank" class="button button-secondary" href="https://sarahsilas.bandcamp.com/releases">Hear Music!</a>
 		  <a rel="noopener" target="_blank" class="button button-3" href="https://sarahandsilas.systeme.io/birthday">Free Birthday Song!</a>
-		  <a rel="noopener" target="_blank" class="button button-primary" href="https://square.link/u/i8Tc9wPb">Fuel &amp; Wine Fund!</a>
+		  <a rel="noopener" target="_blank" class="button button-primary" href="https://square.link/u/i8Tc9wPb"><span id="roulette">Wine</span> Fund!</a>
 	  </div>
     </div>
   </div>
@@ -200,6 +200,21 @@
 setTimeout(function() {
 	addClass('.handwritten','showMe');
 }, 200); 
+
+
+// Change the tip text every 5 seconds
+var thingIndex = 0;
+var things = ['Wine', 'Fuel', 'Strings', 'Tyres', 'Rabbit food', 'Gardening', 'Pandemic therapy'];
+var thing = '';
+
+setInterval(function() {
+	thingIndex++;
+	if (thingIndex == things.length) {
+		thingIndex = 0;
+	}
+	thing = things[thingIndex];
+	document.getElementById("roulette").textContent=thing;
+}, 5000);
 
 
 function addClass(selector, classToAdd) {
