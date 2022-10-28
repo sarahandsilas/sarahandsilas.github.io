@@ -148,6 +148,6 @@ body {
 }
 
 /* Bigger than 1390 */
-@media (min-width: 1390) {
+@media (min-width: 1390px) {
   .maintitle { font-size: 13.9rem; }
 }
