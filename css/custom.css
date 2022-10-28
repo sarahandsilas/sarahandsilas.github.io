@@ -161,3 +161,7 @@ body {
 @media (min-width: 1390px) {
   .maintitle { font-size: 13.9rem; }
 }
+
+.hero .container {
+  width: 100%; 
+}
