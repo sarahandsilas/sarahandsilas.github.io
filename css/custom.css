@@ -119,6 +119,17 @@ body {
   display: none;
 }
 
+.section-description.quote {
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: initial;
+  margin: 4vw auto 6vw;
+}
+.quoteauthor {
+  font-size: 1.1rem;
+  font-style: normal;
+}
+
 
 /* Responsive stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -133,9 +144,16 @@ body {
     /* text-align: left; */
     height: 305px;
   }
+
+  .section-description.quote {
+    font-size: 3.7vw;
+  }
+  .quoteauthor {
+    font-size: 2.3vw;
+  }
 }
 
-/* Bigger than 709 */
+/* Bigger than 849 */
 @media (min-width: 850px) {
   .hero {
     height: 190px;
@@ -145,6 +163,14 @@ body {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .section-description.quote {
+    font-size: 2.8rem;
+    margin: 3rem auto 3.6rem;
+  }
+  .quoteauthor {
+    font-size: 1.4rem;
   }
 }
 
