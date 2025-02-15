@@ -59,6 +59,24 @@ body {
 }
 
 
+/* Gigs container
+______________________________________________________ */
+.gigs .container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Bandcamp embed links
+______________________________________________________ */
+.streamlinks .container {
+  width: 100%;
+  padding: 0;
+}
+
+
 /* Responsive video
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
