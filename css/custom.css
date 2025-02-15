@@ -204,10 +204,14 @@ h3.section-heading {
   font-style: italic;
   line-height: initial;
   margin: 4vw auto 6vw;
+  text-align: left;
 }
 .quoteauthor {
   font-size: 1.1rem;
   font-style: normal;
+  text-align: right;
+  display: block;
+  margin-top: 18px;
 }
 
 /* Responsive stuff
