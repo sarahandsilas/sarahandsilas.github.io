@@ -74,7 +74,7 @@ body {
 .maintitle { 
     margin-top: 150px;
     font-weight: 700;
-    font-size: 10vw;
+    font-size: 11.5vw;
     background: rgb(0 0 0 / 33%);
   }
 	
@@ -97,11 +97,23 @@ body {
 .section-description {
   margin-bottom: 1.2rem;
 }
+h3.section-heading {
+  font-size: 8.5vw;
+}
+
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url('../images/sarah-silas-h42b.jpg');
+  background-image: url("../images/sarah-silas-tango.jpg");
+  background-image: image-set(
+    url("../images/sarah-silas-tango.webp") type("image/webp"), 
+    url("../images/sarah-silas-tango.jpg") type("image/jpeg")
+  );
+  background-image: -webkit-image-set(
+    url("../images/sarah-silas-tango.webp") type("image/webp"), 
+    url("../images/sarah-silas-tango.jpg") type("image/jpeg")
+  );
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
@@ -129,7 +141,6 @@ body {
   font-size: 1.1rem;
   font-style: normal;
 }
-
 
 /* Responsive stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -159,6 +170,9 @@ body {
     height: 190px;
     padding: 16rem 0 14rem;
   }
+  h3.section-heading {
+    font-size: 5vw;
+  }
   .section-description {
     max-width: 60%;
     margin-left: auto;
@@ -186,9 +200,10 @@ body {
 
 /* Bigger than 1390 */
 @media (min-width: 1390px) {
-  .maintitle { font-size: 13.9rem; }
+  .maintitle { font-size: 12rem; }
 }
 
 .hero .container {
   width: 100%; 
+  max-width: 100%;
 }
