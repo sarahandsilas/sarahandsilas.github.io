@@ -1,2 +1,21 @@
 # Ignore Mac DS_Store files
 .DS_Store
+
+.aider*
+.env
+
+node_modules/
+/dist/
+dist*.zip
+*.log
+*.lock
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+*.tsbuildinfo
+
+vite.config.ts.timestamp*
+.history

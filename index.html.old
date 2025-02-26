@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Sarah &amp; Silas - Music from Melbourne, Australia.</title>
+  <meta name="description" content="Sarah &amp; Silas - Folk / Roots musicians from Melbourne, Australia. Catchy original songs and tunes featuring Violin, Ukulele, Drums and sweet duo vocal harmonies. Coming soon to a festival near you.">
+  <meta name="author" content="Silas Palmer">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Courgette:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css?deploy=250">
+  <link rel="stylesheet" href="css/simple-grid.min.css?deploy=001">
+  <!-- custom.css is the main one you should be updating :) --> 
+  <link rel="stylesheet" href="css/custom.css?deploy=408">
+  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+	  <div class="row">
+		  <h1 class="handwritten maintitle">Sarah and Silas</h1>
+		  <a rel="noopener" target="_blank" class="button button-primary" href="https://mailchi.mp/baaa15a34476/sarahandsilas">Get Fun Emails!</a>
+		  <a href="#albums" class="button button-secondary" href="https://sarahsilas.bandcamp.com/releases">Hear Music!</a>
+<!-- 		  <a rel="noopener" target="_blank" class="button button-3" href="https://sarahandsilas.systeme.io/birthday">Free Birthday Song!</a>
+		  <a rel="noopener" target="_blank" class="button button-secondary" href="https://square.link/u/i8Tc9wPb">Pay for things!</a>
+		  <a rel="noopener" target="_blank" class="button button-primary" href="https://square.link/u/i8Tc9wPb">Tips for <span id="roulette">Wine</span>!</a> -->
+	  </div>
+    </div>
+  </div>
+
+  <div class="section gigs">
+    <div class="container">
+      <div class="row">
+		<h3 class="section-heading handwritten">Upcoming Shows</h3>
+		<p class="section-description">
+			<a href="https://www.songkick.com/artists/10210021" class="songkick-widget" data-theme="dark" data-other-artists="on" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Sarah & Silas upcoming shows</a>
+			<script src="https://widget.songkick.com/10210021/widget.js"></script>
+		</p>
+		<p class="section-description">Interested in hosting a house concert? Email us at <a href="mailto:hello@sarahandsilas.com" >hello@sarahandsilas.com</a></p>
+	  </div>
+	</div>
+  </div>
+
+  <div class="section about">
+    <div class="container">
+      <div class="row">
+	  <h3 class="section-heading handwritten">Who are Sarah and Silas?</h3>
+	  <p class="section-description quote">"Animated, amusing and accomplished ... the talented pair's future looks beaming, like their stage persona."<br />
+		<span class="quoteauthor">Rob Dickens, <a href="https://listeningthroughthelens.com" target="_blank">listeningthroughthelens.com</a></span></p>
+	   
+	  <p class="section-description">Sarah (violin, vocals) and Silas (violin, guitar, vocals and other things...) met at a music festival and quickly became festival sweethearts.</p>
+	  <p class="section-description">They love to write heartfelt, thoughtful and imtimate songs about love and life, and their live performances enchant audiences and radiate warmth and charm.</p>
+	  <p class="section-description">Sarah and Silas have been lucky enough to play music all over Australia and in 6 countries overseas (even Tasmania!) They were also nominated as Finalists of the 2022 and 2023 Australian Folk Music Awards.</p>
+
+	  <p class="section-description">They also often play with  
+	  <a href="https://theroyalhighjinx.com/" target="_blank">The Royal High Jinx</a>, 
+	  <a href="https://thebeez.de/" target="_blank">The Beez</a>, 
+	  <a href="https://thebushwackers.com.au/" target="_blank">The Bushwackers</a> and 
+	  <a href="https://alannaandalicia.bandcamp.com/" target="_blank">Alanna and Alicia.</a>
+
+	  <p class="section-description">Don't miss them at a festival near you!</p>		  
+      </div>
+    </div>
+  </div>
+	
+  <div class="section streamlinks">
+	<a name="albums"> </a>
+    <div class="container">
+      <div class="row"> 
+		<h3 class="section-heading handwritten">Releases</h3>
+		
+		<div class='col-6'>
+			<iframe style="border: 0; width: 100%; aspect-ratio: 35/47;" src="https://bandcamp.com/EmbeddedPlayer/album=3942729876/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://sarahsilas.bandcamp.com/album/hearts-in-my-coffee">Hearts In My Coffee by Sarah &amp; Silas</a></iframe>
+		</div>
+
+		<div class='col-6'>
+			<iframe style="border: 0; width: 100%; aspect-ratio: 35/47;" src="https://bandcamp.com/EmbeddedPlayer/album=1851766441/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="https://sarahsilas.bandcamp.com/album/gold-standard-2">Gold Standard by Sarah and Silas</a></iframe>
+		</div>
+
+      </div>
+    </div>
+  </div>
+	 
+  <div class="section video">
+    <div class="container">
+      <div class="row"> 
+		<h3 class="section-heading handwritten">Remember 2020?</h3>
+          <div class='embed-container'>
+	  	<iframe title='Lockdown - official video clip (YouTube)' 
+			src='' 
+			data-src='https://www.youtube.com/embed/videoseries?list=PLERPq41aU9makWuLO3hYuarjUMO1cE4gl' 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+	  	</iframe>
+      	   </div>
+		   <a href="https://youtu.be/BprIRyxbTtw" target="_blank">More videos here</a>
+      </div>
+    </div>
+  </div>
+ 
+ 
+  <div class="section social">
+    <div class="container">
+      <div class="row">
+	  <h3 class="section-heading handwritten">Be Social.</h3>
+	  <p class="section-description">Find Sarah &amp; Silas on 
+	  <a rel="noopener" href="https://fb.me/sarahandsilas" target="_blank">Facebook</a> and 
+	  <a rel="noopener" href="https://youtu.be/BprIRyxbTtw" target="_blank">Youtube</a>. </p>
+	  <p>
+	  You can also 
+	      <ul>
+	        <li> <a rel="noopener" href="https://mailchi.mp/baaa15a34476/sarahandsilas" target="_blank">Join our Mailing List</a> </li>
+	        <li> <a rel="noopener" href="https://sarahsilas.bandcamp.com/releases" target="_blank">Listen to our Music</a> </li>
+	        <li> <a rel="noopener" href="https://m.me/sarahandsilas" target="_blank">Send Us a Message</a> </li>
+	      </ul>
+	  or email hello@sarahandsilas.com
+	  </p>
+      </div>
+    </div>
+  </div>
+
+<!-- Prevent flash of unstyled text -->
+<script type="text/javascript">
+setTimeout(function() {
+	addClass('.handwritten','showMe');
+}, 200); 
+
+
+// Change the tip text every 3 seconds
+// var thingIndex = 0;
+// var things = ['Wine', 'Fuel', 'Strings', 'Tyres', 'Rabbit food', 'Plants', 'RAT tests'];
+// // var things = ['Kind', 'Lovely', 'Nice', 'Sexy', 'Ace', 'Wonderful', 'Marvelous', 'Rad', 'Cool', 'Awesome'];
+// var thing = '';
+
+// setInterval(function() {
+// 	thingIndex++;
+// 	if (thingIndex == things.length) {
+// 		thingIndex = 0;
+// 	}
+// 	thing = things[thingIndex];
+// 	document.getElementById("roulette").textContent=thing;
+// }, 3000);
+
+
+function addClass(selector, classToAdd) {
+	var rows = document.querySelectorAll(selector);
+	for (var i=0; i<rows.length; i++) { 	
+		if (rows[i].classList) {
+		  rows[i].classList.add(classToAdd);
+		} else {
+		  var current = rows[i].classToAdd, found = false;
+		  var all = current.split(' ');
+		  for(i=0; i<all.length, !found; i++) found = all[i] === classToAdd;
+		  if(!found) {
+			if(current === '') rows[i].classToAdd = classToAdd;
+			else rows[i].classToAdd += ' ' + classToAdd;
+		  }
+		}
+	}
+}
+
+function init() {
+  var vidDefer = document.getElementsByTagName('iframe');
+  for (var i=0; i<vidDefer.length; i++) {
+    if(vidDefer[i].getAttribute('data-src')) {
+      vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+
+window.onload = init;
+
+</script>
+	
+<!-- Mailchimp modal on exit -->
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/744376042a48825ef50f61d29/262f6a6badf464c14bbd85734.js");</script>
+	
+<!-- End Document -->
+</body>
+</html>

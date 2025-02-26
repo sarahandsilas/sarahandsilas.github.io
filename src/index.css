@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette:wght@400;700&family=Montserrat:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-courgette {
+  font-family: 'Courgette', cursive;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-image: url("../images/sarah-silas-tango-600.jpg");
+  background-image: image-set(
+    url("../images/sarah-silas-tango-600.webp") type("image/webp"), 
+    url("../images/sarah-silas-tango-600.jpg") type("image/jpeg")
+  );
+  background-image: -webkit-image-set(
+    url("../images/sarah-silas-tango-600.webp") type("image/webp"), 
+    url("../images/sarah-silas-tango-600.jpg") type("image/jpeg"),
+  );
+
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+  background-position-x: 50%;
+}
+
+
+/* 1200px or any retina */
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+      only screen and (-webkit-min-device-pixel-ratio: 1.25),
+      only screen and (min--moz-device-pixel-ratio: 1.25),
+      only screen and (min-device-pixel-ratio: 1.25),
+      only screen and (min-resolution: 1.25dppx), 
+      only screen and (min-width: 550px) {
+  .hero {
+    background-image: url("../images/sarah-silas-tango-1200.jpg");
+    background-image: image-set(
+      url("../images/sarah-silas-tango-1200.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango-1200.jpg") type("image/jpeg")
+    );
+    background-image: -webkit-image-set(
+      url("../images/sarah-silas-tango-1200.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango-1200.jpg") type("image/jpeg"),
+    );
+  
+  }
+}
+
+
+/* 2400px */
+@media only screen and (min-width: 550px) and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (min-width: 550px) and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-width: 550px) and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-width: 550px) and (min-device-pixel-ratio: 1.25),
+       only screen and (min-width: 550px) and (min-resolution: 1.25dppx),
+       only screen and (min-width: 2000px) {
+  .hero {
+    background-image: url("../images/sarah-silas-tango.jpg");
+    background-image: image-set(
+      url("../images/sarah-silas-tango.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango.jpg") type("image/jpeg")
+    );
+    background-image: -webkit-image-set(
+      url("../images/sarah-silas-tango.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango.jpg") type("image/jpeg"),
+    );
+  
+  }
+}
+
+
+
+/* 4800px */
+@media only screen and (min-width: 1000px) and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (min-width: 1000px) and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-width: 1000px) and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-width: 1000px) and (min-device-pixel-ratio: 1.25),
+       only screen and (min-width: 1000px) and (min-resolution: 1.25dppx),
+       only screen and (min-width: 4000px) {
+  .hero {
+    background-image: url("../images/sarah-silas-tango-2x.jpg");
+    background-image: image-set(
+      url("../images/sarah-silas-tango-2x.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango-2x.jpg") type("image/jpeg")
+    );
+    background-image: -webkit-image-set(
+      url("../images/sarah-silas-tango-2x.webp") type("image/webp"), 
+      url("../images/sarah-silas-tango-2x.jpg") type("image/jpeg")
+    );
+  
+  }
+}
